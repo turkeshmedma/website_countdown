@@ -8,8 +8,8 @@ from openerp.osv import osv, orm, fields
 from openerp.addons.base.ir.ir_qweb import HTMLSafe
 
 class Countdown(orm.AbstractModel):
-    _name = 'website.qweb.field.countdown'
-    _inherit = 'website.qweb.field'
+    _name = 'ir.qweb.field.countdown'
+    _inherit = 'ir.qweb.field'
 
 
     def record_to_html(self, cr, uid, field_name, record, options=None, context=None):

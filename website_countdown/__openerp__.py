@@ -35,6 +35,9 @@
     'website': '',
     'data': ['views/countdown.xml', 'views/templates.xml'],
     'demo_xml': [],
+    'images': [
+        'static/description/icon.png',
+    ],
     'css': [ '*.css' ],
     'js': ['*.js' ],
     'installable': True,
